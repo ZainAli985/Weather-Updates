@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Updates</title>
+    <!-- CSS  -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="utility.css">
+     <!-- Favicon  -->
+      <link rel="shortcut icon" href="image.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar  -->
+    <nav id="navbar">
+        <img src="storm-16780801-unscreen.gif" alt="Weather Logo">
+        <h1>WEATHER UPDATES</h1>
+    </nav>
+    <!-- Greetings Area  -->
+     <div class="greet">
+        <img src="" alt="Greet Img" class="greet_image">
+        <h2 class="greet_text">Hello</h2>
+     </div>
+
+    <!-- Search Section  -->
+     <div class="search-section">
+        <h1 class="city_info">CITY, COUNTRY</h1>
+        <div class="search_items_parent">
+     <input type="text" placeholder="City, Country" class="search-box" required>
+     <input type="button" value="Search" class="search-button">
+    </div>
+</div>
+
+    <!-- Temperature Conversion  -->
+     <div class="temp_mode"> 
+        <span ><a href="#" id="celcius">C<sup>o</sup></a></span>
+        <span class="divider">|</span>
+        <span ><a href="#"id="farenheit"> F<sup>o</sup></a></span>
+     </div>
+
+     <!-- Temperature Area  -->
+     <div class="temp-parent">
+        <div class="temp-info">
+        <h1 class="temperature">00<sup>o</sup>C</h1>
+    </div>
+        <div class="extra-info">
+            <span id="time">9:24</span>
+            <span id="day">Sunday</span>
+            <span id="day-weather">Cloudy</span>
+        </div>
+     </div>
+     <hr class="custom-hr">
+
+     <!-- Atmospheric Conditions  -->
+      <div class="atm-con">
+        <span id="feels-like">
+            <img src="global-warming_17102912.gif" alt="IMG">
+           <h3 class="feels_like">Feels Like</h3> 
+        </span>
+        <span id="humidity">
+            <img src="humidity_11201779.gif" alt="IMG">
+           <h3 class="humidity">Humidity</h3> </span>
+        <span id="wind-speed">
+            <img src="wind_17102829.gif" alt="IMG">
+           <h3 class="wind_speed">Wind Speed</h3> </span>
+        <span id="visibility">
+            <img src="eye_11909639.gif" alt="IMG">
+           <h3 class="visibility">Visibility</h3> </span>
+        <span id="air-pressure">
+            <img src="deformation_13319778.gif" alt="IMG">
+           <h3 class="air_pressure">Air Pressure</h3> </span>
+      </div>
+
+      <footer>
+        <h4>ALL RIGHTS RESERVED. BY MUHAMMAD ZAIN ALI. <a href="liscense.html">License</a></h4>
+      </footer>
+
+    <!-- Script JS  -->
+    <script src="script.js"></script>
+</body>
+</html>

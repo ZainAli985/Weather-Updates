@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Max width for the content */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px; /* Padding around the container */
+    background-color: white; /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the container */
+}
+
+header {
+    text-align: center; /* Center the text */
+    margin-bottom: 30px; /* Space below header */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Size of the main heading */
+    color: #333; /* Dark gray color for text */
+}
+
+.rights-reserved, .credits {
+    margin: 20px 0; /* Space above and below sections */
+    border-top: 2px solid #ccc; /* Top border for separation */
+    padding-top: 20px; /* Space above the content in sections */
+}
+
+h2 {
+    color: #007BFF; /* Bootstrap primary color */
+}
+
+a {
+    color: #007BFF; /* Color for links */
+    text-decoration: none; /* No underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
